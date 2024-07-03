@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: "Space Grotesk", sans-serif;
+}
+.header-username::before{
+ content: "";
+ @apply absolute w-full h-2 lg:h-3 mix-blend-multiply -rotate-1 bg-blue-500 bottom-1 lg:bottom-2 
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.project-card{
+  filter: invert();
+}
