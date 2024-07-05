@@ -26,7 +26,7 @@ const socials =[
       url: null, // Replace with Airchat URL if available
     },
     {
-      name: "email",
+      name: "Email : crretsim@gmail.com",
       icon: <BiLogoGmail />,
       url: "mailto:crretsim@gmail.com",
     },
